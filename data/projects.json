@@ -1,19 +1,81 @@
 {
+  "profile": {
+    "name": "Brayan Rosales Pérez",
+    "country": "Costa Rica",
+    "phone": "+506 83185484",
+    "linkedin": "https://www.linkedin.com/in/bryan-rosales-p%C3%A9rez-57b226202/",
+    "degree": "B.Sc. in Systems Engineering — UNA",
+    "default_language": "en"
+  },
+  "thoughts": {
+    "short": "",
+    "long": ""
+  },
   "projects": [
     {
-      "name": "Example Project",
-      "description": "Short description of the project and purpose.",
-      "repo_link": "https://github.com/brayrpgs/example-project",
-      "live_link": "",
-      "stack": ["JavaScript", "HTML", "CSS"],
-      "year": "2024",
-      "complexity": "Medium",
+      "name": "Portfolio Website",
+      "description": "Personal portfolio site showcasing projects, contact info and short thoughts. Responsive, light-weight, GitHub-inspired theme.",
+      "repo_link": "https://github.com/brayrpgs/portfolio",
+      "live_link": "https://brayrpgs.github.io/portfolio",
+      "stack": ["HTML", "CSS", "JavaScript"],
+      "year": "2025",
+      "complexity": "Low",
       "images": [
-        "assets/example-1.png",
-        "assets/example-2.png"
+        "assets/portfolio-1.png",
+        "assets/portfolio-2.png",
+        "assets/portfolio-3.png"
+      ],
+      "videos": []
+    },
+    {
+      "name": "TaskMaster (Task Manager)",
+      "description": "Full-stack task management app with user authentication, real-time updates and REST API. Demo includes UI walkthrough and deployment notes.",
+      "repo_link": "https://github.com/brayrpgs/taskmaster",
+      "live_link": "https://taskmaster.example.com",
+      "stack": ["React", "Node.js", "Express", "MongoDB"],
+      "year": "2024",
+      "complexity": "High",
+      "images": [
+        "assets/taskmaster-1.png",
+        "assets/taskmaster-2.png",
+        "assets/taskmaster-3.png"
       ],
       "videos": [
-        "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+        "https://www.youtube.com/watch?v=EXAMPLE_ID_1",
+        "https://www.youtube.com/watch?v=EXAMPLE_ID_2"
+      ]
+    },
+    {
+      "name": "Inventory Manager",
+      "description": "Inventory and orders management system for small businesses. Includes CSV import/export, user roles and Docker deployment.",
+      "repo_link": "https://github.com/brayrpgs/inventory-manager",
+      "live_link": "",
+      "stack": ["Python", "Django", "PostgreSQL", "Docker"],
+      "year": "2023",
+      "complexity": "Medium",
+      "images": [
+        "assets/inventory-1.png",
+        "assets/inventory-2.png"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EXAMPLE_ID_3"
+      ]
+    },
+    {
+      "name": "Image Classifier (ML Prototype)",
+      "description": "Prototype for image classification using a CNN. Training pipeline, model export and a small Flask API for inference.",
+      "repo_link": "https://github.com/brayrpgs/image-classifier",
+      "live_link": "",
+      "stack": ["Python", "TensorFlow", "Flask"],
+      "year": "2022",
+      "complexity": "High",
+      "images": [
+        "assets/ml-1.png",
+        "assets/ml-2.png"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EXAMPLE_ID_4",
+        "https://www.youtube.com/watch?v=EXAMPLE_ID_5"
       ]
     }
   ]
