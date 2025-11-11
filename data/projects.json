@@ -58,11 +58,11 @@
     },
     {
       "name": "EduPlanPro-backend",
-      "description": "Backend server for EduPlanPro (Express/Node). Postgres (pg) is used as the DB.",
+      "description": "API and backend server for academic management system focused on study plans, course programs, users, teachers, careers, faculties, schools, roles, preferences and reports. Features include user management with authentication and password recovery, academic administration, teacher management, advanced search modules, report generation, automatic backups, recycle bin for data recovery, and user preferences customization. Built with Node.js and Express.",
       "repo_link": "https://github.com/brayrpgs/EduPlanPro-backend",
       "live_link": "",
-      "stack": ["JavaScript", "Node.js", "Express", "PostgreSQL", "Docker"],
-      "year": "",
+      "stack": ["JavaScript", "Node.js", "Express", "PostgreSQL", "bcrypt", "express-session", "CORS", "node-cron", "adm-zip"],
+      "year": "2024",
       "complexity": "High",
       "images": [],
       "videos": []
