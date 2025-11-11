@@ -211,17 +211,6 @@
       "videos": []
     },
     {
-      "name": "GLOB-IONIC-FRONT",
-      "description": "Ionic front project; front-end mobile/web experience for GLOB (Ionic/TypeScript).",
-      "repo_link": "https://github.com/brayrpgs/GLOB-IONIC-FRONT",
-      "live_link": "",
-      "stack": ["TypeScript", "Ionic"],
-      "year": "",
-      "complexity": "Unknown",
-      "images": [],
-      "videos": []
-    },
-    {
       "name": "Exam",
       "description": "Kotlin-based mobile project.",
       "repo_link": "https://github.com/brayrpgs/Exam",
