@@ -91,12 +91,12 @@
     },
     {
       "name": "GLOB-DB",
-      "description": "Database repository and documentation (PL/pgSQL) for GLOB.",
+      "description": "Central configuration and database repository for GLOB platform. Contains PostgreSQL database schemas, Docker Compose orchestration for all microservices, environment configurations, and multilingual documentation (EN, ES, FR, PT). Manages the setup for the entire GLOB ecosystem including database, pgAdmin, API services, frontend, SSE notifications, and AI performance modules.",
       "repo_link": "https://github.com/brayrpgs/GLOB-DB",
       "live_link": "",
-      "stack": ["PLpgSQL", "PostgreSQL"],
-      "year": "",
-      "complexity": "Unknown",
+      "stack": ["PostgreSQL", "PLpgSQL", "Docker", "Docker Compose", "pgAdmin", "Python", "Node.js", "TypeScript", "Ollama"],
+      "year": "2024",
+      "complexity": "High",
       "images": [],
       "videos": []
     },
