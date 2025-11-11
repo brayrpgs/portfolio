@@ -13,70 +13,224 @@
   },
   "projects": [
     {
-      "name": "Portfolio Website",
-      "description": "Personal portfolio site showcasing projects, contact info and short thoughts. Responsive, light-weight, GitHub-inspired theme.",
-      "repo_link": "https://github.com/brayrpgs/portfolio",
-      "live_link": "https://brayrpgs.github.io/portfolio",
-      "stack": ["HTML", "CSS", "JavaScript"],
-      "year": "2025",
-      "complexity": "Low",
-      "images": [
-        "assets/portfolio-1.png",
-        "assets/portfolio-2.png",
-        "assets/portfolio-3.png"
-      ],
+      "name": "GLOB-FRONTEND",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/GLOB-FRONTEND",
+      "live_link": "",
+      "stack": ["TypeScript", "CSS"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
       "videos": []
     },
     {
-      "name": "TaskMaster (Task Manager)",
-      "description": "Full-stack task management app with user authentication, real-time updates and REST API. Demo includes UI walkthrough and deployment notes.",
-      "repo_link": "https://github.com/brayrpgs/taskmaster",
-      "live_link": "https://taskmaster.example.com",
-      "stack": ["React", "Node.js", "Express", "MongoDB"],
-      "year": "2024",
-      "complexity": "High",
-      "images": [
-        "assets/taskmaster-1.png",
-        "assets/taskmaster-2.png",
-        "assets/taskmaster-3.png"
-      ],
-      "videos": [
-        "https://www.youtube.com/watch?v=EXAMPLE_ID_1",
-        "https://www.youtube.com/watch?v=EXAMPLE_ID_2"
-      ]
+      "name": "devmultiverse-api-catalog",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/devmultiverse-api-catalog",
+      "live_link": "",
+      "stack": ["Python", "Dockerfile"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
     },
     {
-      "name": "Inventory Manager",
-      "description": "Inventory and orders management system for small businesses. Includes CSV import/export, user roles and Docker deployment.",
-      "repo_link": "https://github.com/brayrpgs/inventory-manager",
+      "name": "Proyecto-de-moviles",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/Proyecto-de-moviles",
       "live_link": "",
-      "stack": ["Python", "Django", "PostgreSQL", "Docker"],
-      "year": "2023",
-      "complexity": "Medium",
-      "images": [
-        "assets/inventory-1.png",
-        "assets/inventory-2.png"
-      ],
-      "videos": [
-        "https://www.youtube.com/watch?v=EXAMPLE_ID_3"
-      ]
+      "stack": ["TypeScript", "PLpgSQL", "Dockerfile"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
     },
     {
-      "name": "Image Classifier (ML Prototype)",
-      "description": "Prototype for image classification using a CNN. Training pipeline, model export and a small Flask API for inference.",
-      "repo_link": "https://github.com/brayrpgs/image-classifier",
+      "name": "devmultiverse-api-central",
+      "description": "app principal",
+      "repo_link": "https://github.com/brayrpgs/devmultiverse-api-central",
       "live_link": "",
-      "stack": ["Python", "TensorFlow", "Flask"],
-      "year": "2022",
-      "complexity": "High",
-      "images": [
-        "assets/ml-1.png",
-        "assets/ml-2.png"
-      ],
-      "videos": [
-        "https://www.youtube.com/watch?v=EXAMPLE_ID_4",
-        "https://www.youtube.com/watch?v=EXAMPLE_ID_5"
-      ]
+      "stack": ["TypeScript", "TSQL"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "EduPlanPro-backend",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/EduPlanPro-backend",
+      "live_link": "",
+      "stack": ["JavaScript", "Dockerfile"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "POS",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/POS",
+      "live_link": "",
+      "stack": ["TypeScript"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "API-exam",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/API-exam",
+      "live_link": "",
+      "stack": ["C#", "TSQL"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "GLOB-DB",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/GLOB-DB",
+      "live_link": "",
+      "stack": ["PLpgSQL"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "EduPlanPro-Frontend",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/EduPlanPro-Frontend",
+      "live_link": "",
+      "stack": ["JavaScript", "CSS"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "ARShopping",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/ARShopping",
+      "live_link": "",
+      "stack": ["Kotlin"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "post-front-end",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/post-front-end",
+      "live_link": "",
+      "stack": ["TypeScript", "Dockerfile", "CSS"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "Sistemas-Distribuidos-Linux-PVM",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/Sistemas-Distribuidos-Linux-PVM",
+      "live_link": "",
+      "stack": [],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "proyecto-progra",
+      "description": "proyecto de programación 2",
+      "repo_link": "https://github.com/brayrpgs/proyecto-progra",
+      "live_link": "",
+      "stack": ["Java", "HTML"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "GLOB-SSE",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/GLOB-SSE",
+      "live_link": "",
+      "stack": ["PLpgSQL", "JavaScript"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "GLOB-IONIC-FRONT",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/GLOB-IONIC-FRONT",
+      "live_link": "",
+      "stack": [],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "Exam",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/Exam",
+      "live_link": "",
+      "stack": ["Kotlin"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "portfolio",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/portfolio",
+      "live_link": "https://brayrpgs.github.io/portfolio",
+      "stack": ["JavaScript", "HTML", "CSS"],
+      "year": "",
+      "complexity": "Low",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "lucene_proyect",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/lucene_proyect",
+      "live_link": "",
+      "stack": ["HTML", "C#", "CSS", "JavaScript"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "IONIC-Proyect",
+      "description": "research of ionic implementation for course mobile UNA 2025",
+      "repo_link": "https://github.com/brayrpgs/IONIC-Proyect",
+      "live_link": "",
+      "stack": ["TypeScript", "CSS", "HTML", "JavaScript"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
+    },
+    {
+      "name": "CRAUTOS",
+      "description": "",
+      "repo_link": "https://github.com/brayrpgs/CRAUTOS",
+      "live_link": "",
+      "stack": ["TypeScript", "CSS", "Astro"],
+      "year": "",
+      "complexity": "Unknown",
+      "images": [],
+      "videos": []
     }
   ]
 }
