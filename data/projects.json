@@ -112,6 +112,17 @@
       "videos": []
     },
     {
+      "name": "GLOB-IMPORT-EXPORT-MODULE",
+      "description": "Robust and scalable microservice for efficient project and issue management. Provides import/export functionality for Jira project data. Built with .NET 8 and fully containerized with Docker.",
+      "repo_link": "https://github.com/brayrpgs/GLOB-IMPORT-EXPORT-MODULE",
+      "live_link": "",
+      "stack": ["C#", ".NET", "Docker", "RESTful API"],
+      "year": "",
+      "complexity": "High",
+      "images": [],
+      "videos": []
+    },
+    {
       "name": "EduPlanPro-Frontend",
       "description": "React front-end for EduPlanPro (React, Jotai, axios).",
       "repo_link": "https://github.com/brayrpgs/EduPlanPro-Frontend",
