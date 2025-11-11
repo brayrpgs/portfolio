@@ -101,6 +101,17 @@
       "videos": []
     },
     {
+      "name": "GLOB-DATA-APPLICATION",
+      "description": "Main data source API for GLOB. RESTful API built with FastAPI for data extraction, validation, transformation, and delivery from the database to different system modules.",
+      "repo_link": "https://github.com/brayrpgs/GLOB-DATA-APPLICATION",
+      "live_link": "",
+      "stack": ["Python", "FastAPI", "PostgreSQL", "Docker", "asyncpg"],
+      "year": "",
+      "complexity": "High",
+      "images": [],
+      "videos": []
+    },
+    {
       "name": "EduPlanPro-Frontend",
       "description": "React front-end for EduPlanPro (React, Jotai, axios).",
       "repo_link": "https://github.com/brayrpgs/EduPlanPro-Frontend",
