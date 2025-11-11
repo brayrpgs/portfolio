@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Brayan Rosales Pérez — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-lang="en">
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="title-wrap">
+        <h1 id="name">Brayan Rosales Pérez</h1>
+        <p class="tagline" id="tagline">Systems Engineer • Costa Rica</p>
+        <p class="muted" id="degree">B.Sc. in Systems Engineering — UNA</p>
+      </div>
+
+      <div class="controls">
+        <button id="lang-toggle" aria-label="Switch language">Español</button>
+        <nav class="social">
+          <a href="https://github.com/brayrpgs" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/bryan-rosales-p%C3%A9rez-57b226202/" target="_blank" rel="noopener">LinkedIn</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2 data-i18n="about_title">About</h2>
+      <div class="about-grid">
+        <div class="about-left">
+          <p id="about-text" data-i18n="about_text">
+            Hello — I'm Brayan, a Systems Engineer from Costa Rica. I build web apps and systems. Use the Projects section to see work and videos.
+          </p>
+
+          <ul class="contact-list">
+            <li><strong data-i18n="contact_label">Contact:</strong> <a href="mailto:you@example.com" id="contact-email">you@example.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+50683185484">+506 83185484</a></li>
+            <li><strong>Country:</strong> Costa Rica</li>
+          </ul>
+        </div>
+
+        <div class="about-right">
+          <div class="filters">
+            <label for="tech-filter" data-i18n="filter_label">Filter by technology</label>
+            <select id="tech-filter">
+              <option value="all" selected>All</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 data-i18n="projects_title">Projects</h2>
+      <div id="projects-grid" class="grid">
+        <!-- Projects rendered by JS -->
+      </div>
+      <p id="no-projects" class="muted" style="display:none" data-i18n="no_projects">No projects yet. Add entries to data/projects.json.</p>
+    </section>
+
+    <section id="thoughts">
+      <h2 data-i18n="thoughts_title">Thoughts</h2>
+      <p id="thoughts-text" data-i18n="thoughts_text">
+        Write short reflections, approaches to engineering, or personal notes here.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <small>© <span id="year"></span> Brayan Rosales Pérez — Built with ❤️</small>
+    </div>
+  </footer>
+
+  <template id="project-template">
+    <article class="card project-card">
+      <div class="card-header">
+        <h3 class="project-name"></h3>
+        <div class="meta">
+          <span class="year"></span> · <span class="complexity"></span>
+        </div>
+      </div>
+
+      <div class="media">
+        <div class="carousel">
+          <button class="prev" aria-label="Previous image">‹</button>
+          <div class="carousel-frame"></div>
+          <button class="next" aria-label="Next image">›</button>
+        </div>
+        <div class="videos"></div>
+      </div>
+
+      <p class="project-desc"></p>
+
+      <div class="project-footer">
+        <div class="stack"></div>
+        <div class="links">
+          <a class="live-link" target="_blank" rel="noopener">Live</a>
+          <a class="repo-link" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="main.js"></script>
+</body>
+</html>

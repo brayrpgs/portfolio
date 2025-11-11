@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "name": "Example Project",
+      "description": "Short description of the project and purpose.",
+      "repo_link": "https://github.com/brayrpgs/example-project",
+      "live_link": "",
+      "stack": ["JavaScript", "HTML", "CSS"],
+      "year": "2024",
+      "complexity": "Medium",
+      "images": [
+        "assets/example-1.png",
+        "assets/example-2.png"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+      ]
+    }
+  ]
+}
