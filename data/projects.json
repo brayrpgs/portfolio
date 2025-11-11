@@ -167,6 +167,17 @@
       "videos": []
     },
     {
+      "name": "GLOB-PERFORMANCE-IA",
+      "description": "Microservice for LookUp Project (Globales' course project) focused on giving an AI review about project's status.",
+      "repo_link": "https://github.com/brayrpgs/GLOB-PERFORMANCE-IA",
+      "live_link": "",
+      "stack": ["TypeScript", "Node.js", "Express", "PostgreSQL", "Docker"],
+      "year": "",
+      "complexity": "Medium",
+      "images": [],
+      "videos": []
+    },
+    {
       "name": "GLOB-IONIC-FRONT",
       "description": "Ionic front project; front-end mobile/web experience for GLOB (Ionic/TypeScript).",
       "repo_link": "https://github.com/brayrpgs/GLOB-IONIC-FRONT",
