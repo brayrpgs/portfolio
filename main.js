@@ -26,7 +26,9 @@ const state = {
   lang: 'en',
   projects: [],
   techs: new Set(),
-  filter: 'all'
+  filter: 'all',
+  profile: null,
+  thoughts: null
 };
 
 document.getElementById('year').textContent = new Date().getFullYear();
@@ -45,7 +47,52 @@ function renderStaticText(){
     if(dict[key]) el.textContent = dict[key];
   });
   document.getElementById('about-text').textContent = dict.about_text;
-  document.getElementById('thoughts-text').textContent = dict.thoughts_text;
+  
+  // Use thoughts from JSON if available, otherwise use default from LANG
+  const thoughtsText = document.getElementById('thoughts-text');
+  if(state.thoughts && state.thoughts.long) {
+    thoughtsText.textContent = state.thoughts.long;
+  } else {
+    thoughtsText.textContent = dict.thoughts_text;
+  }
+}
+
+function applyProfileData(){
+  if(!state.profile) return;
+  
+  // Update name
+  if(state.profile.name) {
+    document.getElementById('name').textContent = state.profile.name;
+  }
+  
+  // Update degree
+  if(state.profile.degree) {
+    document.getElementById('degree').textContent = state.profile.degree;
+  }
+  
+  // Update contact email if provided (keep existing if not)
+  if(state.profile.email) {
+    const emailLink = document.getElementById('contact-email');
+    if(emailLink) {
+      emailLink.textContent = state.profile.email;
+      emailLink.href = `mailto:${state.profile.email}`;
+    }
+  }
+  
+  // Update LinkedIn link if provided
+  if(state.profile.linkedin) {
+    const linkedinLinks = document.querySelectorAll('a[href*="linkedin"]');
+    linkedinLinks.forEach(link => {
+      link.href = state.profile.linkedin;
+    });
+  }
+}
+
+function applyThoughtsData(){
+  if(!state.thoughts) return;
+  
+  // If thoughts has content, it will be applied in renderStaticText
+  // This function can be extended if needed
 }
 
 async function loadProjects(){
@@ -54,6 +101,19 @@ async function loadProjects(){
     if(!res.ok) throw new Error('Projects not found');
     const json = await res.json();
     state.projects = json.projects || [];
+    state.profile = json.profile || null;
+    state.thoughts = json.thoughts || null;
+    
+    // Apply profile data if available
+    if(state.profile) {
+      applyProfileData();
+    }
+    
+    // Apply thoughts data if available
+    if(state.thoughts) {
+      applyThoughtsData();
+    }
+    
     buildTechList();
     renderProjects();
     populateFilter();
