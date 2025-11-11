@@ -124,12 +124,12 @@
     },
     {
       "name": "EduPlanPro-Frontend",
-      "description": "React front-end for EduPlanPro (React, Jotai, axios).",
+      "description": "Web platform for managing and administering study plans, courses, teachers, users and reports. Features include school/faculty/career management, user management with role-based permissions (admin/root), course program management with PDF reports, user preferences (themes, colors), database backups, trash recovery, and security with login validation. Built with React and TailwindCSS.",
       "repo_link": "https://github.com/brayrpgs/EduPlanPro-Frontend",
       "live_link": "",
-      "stack": ["JavaScript", "React", "Jotai", "Axios", "TailwindCSS"],
-      "year": "",
-      "complexity": "Medium",
+      "stack": ["JavaScript", "React", "React Router", "Jotai", "Axios", "TailwindCSS", "SweetAlert2", "JSZip"],
+      "year": "2024",
+      "complexity": "High",
       "images": [],
       "videos": []
     },
