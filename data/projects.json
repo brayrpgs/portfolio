@@ -5,7 +5,11 @@
     "phone": "+506 83185484",
     "linkedin": "https://www.linkedin.com/in/brayan-stanley-rosales-p%C3%A9rez-57b226202/",
     "degree": "B.Sc. in Systems Engineering — UNA",
-    "default_language": "en"
+    "default_language": "en",
+    "emails": [
+      "brayanymelquisedec@gmail.com",
+      "brayan.rosales.perez@est.una.ac.cr"
+    ]
   },
   "thoughts": {
     "short": "I'm a Systems Engineer specializing in Full Stack development (Web | Mobile | Desktop). I'm young, agile, and adaptable, with solid practical experience, both professional and empirical. I'm proficient in Node.js with TypeScript, React, Docker, PostgreSQL (and its PostRESTsql plugin), Express with TSOA, and I also work with .NET > 8.",
