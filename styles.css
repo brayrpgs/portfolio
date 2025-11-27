@@ -19,6 +19,7 @@ body{
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
 }
+a{color:var(--accent);text-decoration:none}
 .container{max-width:var(--container);margin:0 auto;padding:28px}
 .header-row{display:flex;align-items:center;justify-content:space-between;gap:16px}
 .profile-section{display:flex;align-items:center;gap:20px}
