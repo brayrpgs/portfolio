@@ -63,12 +63,30 @@ function renderStaticText(){
   document.getElementById('thoughts-text').textContent = dict.thoughts_text;
 }
 
+function renderEmails(emails) {
+  const container = document.getElementById('contact-emails');
+  if (!container || !emails || emails.length === 0) return;
+  container.innerHTML = '';
+  emails.forEach((email, idx) => {
+    const a = document.createElement('a');
+    a.href = `mailto:${email}`;
+    a.textContent = email;
+    container.appendChild(a);
+    if (idx < emails.length - 1) {
+      container.appendChild(document.createTextNode(', '));
+    }
+  });
+}
+
 async function loadProjects(){
   try {
     const res = await fetch('data/projects.json');
     if(!res.ok) throw new Error('Projects not found');
     const json = await res.json();
     state.projects = json.projects || [];
+    if (json.profile && json.profile.emails) {
+      renderEmails(json.profile.emails);
+    }
     if (json.thoughts) {
       updateLangWithThoughts(json.thoughts);
       renderStaticText();
