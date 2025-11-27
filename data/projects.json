@@ -63,7 +63,9 @@
         "images/shopping AR/Shopping AR (5).jpg",
         "images/shopping AR/Shopping AR (6).jpg"
       ],
-      "videos": ["https://youtu.be/u1qeRX-x62M"]
+      "videos": [
+        "https://youtu.be/u1qeRX-x62M"
+      ]
     },
     {
       "name": "EduPlanPro-backend",
@@ -155,9 +157,12 @@
         "Docker",
         "asyncpg"
       ],
-      "year": "",
+      "year": "2025",
       "complexity": "High",
-      "images": [],
+      "images": [
+        "images/quick report front/glob-data-application.png",
+        "images/quick report front/glob-data-application.webp"
+      ],
       "videos": []
     },
     {
@@ -173,7 +178,10 @@
       ],
       "year": "",
       "complexity": "High",
-      "images": [],
+      "images": [
+        "images/quick report front/glob-export-import.webp",
+        "images/quick report front/glob-export-import.svg"
+      ],
       "videos": []
     },
     {
@@ -232,7 +240,9 @@
         "images/shopping AR/Shopping AR (5).jpg",
         "images/shopping AR/Shopping AR (6).jpg"
       ],
-      "videos": ["https://youtu.be/u1qeRX-x62M"]
+      "videos": [
+        "https://youtu.be/u1qeRX-x62M"
+      ]
     },
     {
       "name": "Boolean Kitchen",
