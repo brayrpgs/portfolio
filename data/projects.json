@@ -102,23 +102,6 @@
       ]
     },
     {
-      "name": "POS",
-      "description": "Point-of-sale backend (TypeScript). Uses mssql (SQL Server) as database client.",
-      "repo_link": "https://github.com/brayrpgs/POS",
-      "live_link": "",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "Express",
-        "mssql",
-        "SQL Server"
-      ],
-      "year": "",
-      "complexity": "Medium",
-      "images": [],
-      "videos": []
-    },
-    {
       "name": "API-exam",
       "description": "API (C#/.NET) for exam system. README documents SQL Server setup for the project.",
       "repo_link": "https://github.com/brayrpgs/API-exam",
