@@ -71,7 +71,24 @@
       ],
       "year": "",
       "complexity": "High",
-      "images": [],
+      "images": [
+        "images/EduplanPRO/eduplanpro (1).jpg",
+        "images/EduplanPRO/eduplanpro (2).jpg",
+        "images/EduplanPRO/eduplanpro (3).jpg",
+        "images/EduplanPRO/eduplanpro (4).jpg",
+        "images/EduplanPRO/eduplanpro (5).jpg",
+        "images/EduplanPRO/eduplanpro (6).jpg",
+        "images/EduplanPRO/eduplanpro (7).jpg",
+        "images/EduplanPRO/eduplanpro (8).jpg",
+        "images/EduplanPRO/eduplanpro (9).jpg",
+        "images/EduplanPRO/eduplanpro (10).jpg",
+        "images/EduplanPRO/eduplanpro (11).jpg",
+        "images/EduplanPRO/eduplanpro (12).jpg",
+        "images/EduplanPRO/eduplanpro (13).jpg",
+        "images/EduplanPRO/eduplanpro (14).jpg",
+        "images/EduplanPRO/eduplanpro (15).jpg",
+        "images/EduplanPRO/eduplanpro (16).jpg"
+      ],
       "videos": []
     },
     {
@@ -175,7 +192,24 @@
       ],
       "year": "",
       "complexity": "Medium",
-      "images": [],
+      "images": [
+        "images/EduplanPRO/eduplanpro (1).jpg",
+        "images/EduplanPRO/eduplanpro (2).jpg",
+        "images/EduplanPRO/eduplanpro (3).jpg",
+        "images/EduplanPRO/eduplanpro (4).jpg",
+        "images/EduplanPRO/eduplanpro (5).jpg",
+        "images/EduplanPRO/eduplanpro (6).jpg",
+        "images/EduplanPRO/eduplanpro (7).jpg",
+        "images/EduplanPRO/eduplanpro (8).jpg",
+        "images/EduplanPRO/eduplanpro (9).jpg",
+        "images/EduplanPRO/eduplanpro (10).jpg",
+        "images/EduplanPRO/eduplanpro (11).jpg",
+        "images/EduplanPRO/eduplanpro (12).jpg",
+        "images/EduplanPRO/eduplanpro (13).jpg",
+        "images/EduplanPRO/eduplanpro (14).jpg",
+        "images/EduplanPRO/eduplanpro (15).jpg",
+        "images/EduplanPRO/eduplanpro (16).jpg"
+      ],
       "videos": []
     },
     {
@@ -381,7 +415,7 @@
         "images/crautos/crautos (17).jpg",
         "images/crautos/crautos (18).jpg"
       ],
-      "videos": []
+      "videos": ["https://youtu.be/EMM9C9ss2Q4"]
     }
   ]
 }
