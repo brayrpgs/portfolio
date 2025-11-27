@@ -17,7 +17,12 @@
       "description": "Ionic / React frontend (Vite + TypeScript). Mobile/web UI for the GLOB platform.",
       "repo_link": "https://github.com/brayrpgs/GLOB-FRONTEND",
       "live_link": "",
-      "stack": ["TypeScript", "Ionic", "React", "Vite"],
+      "stack": [
+        "TypeScript",
+        "Ionic",
+        "React",
+        "Vite"
+      ],
       "year": "",
       "complexity": "Unknown",
       "images": [
@@ -35,35 +40,20 @@
       "videos": []
     },
     {
-      "name": "devmultiverse-api-catalog",
-      "description": "API/catalog service (Python + Docker).",
-      "repo_link": "https://github.com/brayrpgs/devmultiverse-api-catalog",
-      "live_link": "",
-      "stack": ["Python", "Docker"],
-      "year": "",
-      "complexity": "Unknown",
-      "images": [],
-      "videos": []
-    },
-    {
-      "name": "Proyecto-de-moviles",
+      "name": "ARShopping-backend",
       "description": "Backend API for mobile project — Node + TypeScript, uses Sequelize and Postgres (containerized).",
       "repo_link": "https://github.com/brayrpgs/Proyecto-de-moviles",
       "live_link": "",
-      "stack": ["TypeScript", "Node.js", "Express", "Sequelize", "PostgreSQL", "Docker"],
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Sequelize",
+        "PostgreSQL",
+        "Docker"
+      ],
       "year": "",
       "complexity": "Medium",
-      "images": [],
-      "videos": []
-    },
-    {
-      "name": "devmultiverse-api-central",
-      "description": "Main API (TypeScript). Uses tsoa and MS SQL client libraries — central backend for the devmultiverse suite.",
-      "repo_link": "https://github.com/brayrpgs/devmultiverse-api-central",
-      "live_link": "",
-      "stack": ["TypeScript", "Node.js", "Express", "tsoa", "mssql", "msnodesqlv8"],
-      "year": "",
-      "complexity": "High",
       "images": [],
       "videos": []
     },
@@ -72,7 +62,13 @@
       "description": "Backend server for EduPlanPro (Express/Node). Postgres (pg) is used as the DB.",
       "repo_link": "https://github.com/brayrpgs/EduPlanPro-backend",
       "live_link": "",
-      "stack": ["JavaScript", "Node.js", "Express", "PostgreSQL", "Docker"],
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Docker"
+      ],
       "year": "",
       "complexity": "High",
       "images": [],
@@ -83,7 +79,13 @@
       "description": "Point-of-sale backend (TypeScript). Uses mssql (SQL Server) as database client.",
       "repo_link": "https://github.com/brayrpgs/POS",
       "live_link": "",
-      "stack": ["TypeScript", "Node.js", "Express", "mssql", "SQL Server"],
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "mssql",
+        "SQL Server"
+      ],
       "year": "",
       "complexity": "Medium",
       "images": [],
@@ -94,7 +96,12 @@
       "description": "API (C#/.NET) for exam system. README documents SQL Server setup for the project.",
       "repo_link": "https://github.com/brayrpgs/API-exam",
       "live_link": "",
-      "stack": ["C#", ".NET", "SQL Server", "T-SQL"],
+      "stack": [
+        "C#",
+        ".NET",
+        "SQL Server",
+        "T-SQL"
+      ],
       "year": "",
       "complexity": "High",
       "images": [],
@@ -105,7 +112,17 @@
       "description": "Central configuration and database repository for GLOB platform. Contains PostgreSQL database schemas, Docker Compose orchestration for all microservices, environment configurations, and multilingual documentation (EN, ES, FR, PT). Manages the setup for the entire GLOB ecosystem including database, pgAdmin, API services, frontend, SSE notifications, and AI performance modules.",
       "repo_link": "https://github.com/brayrpgs/GLOB-DB",
       "live_link": "",
-      "stack": ["PostgreSQL", "PLpgSQL", "Docker", "Docker Compose", "pgAdmin", "Python", "Node.js", "TypeScript", "Ollama"],
+      "stack": [
+        "PostgreSQL",
+        "PLpgSQL",
+        "Docker",
+        "Docker Compose",
+        "pgAdmin",
+        "Python",
+        "Node.js",
+        "TypeScript",
+        "Ollama"
+      ],
       "year": "2024",
       "complexity": "High",
       "images": [],
@@ -116,7 +133,13 @@
       "description": "Main data source API for GLOB. RESTful API built with FastAPI for data extraction, validation, transformation, and delivery from the database to different system modules.",
       "repo_link": "https://github.com/brayrpgs/GLOB-DATA-APPLICATION",
       "live_link": "",
-      "stack": ["Python", "FastAPI", "PostgreSQL", "Docker", "asyncpg"],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "asyncpg"
+      ],
       "year": "",
       "complexity": "High",
       "images": [],
@@ -127,7 +150,12 @@
       "description": "Robust and scalable microservice for efficient project and issue management. Provides import/export functionality for Jira project data. Built with .NET 8 and fully containerized with Docker.",
       "repo_link": "https://github.com/brayrpgs/GLOB-IMPORT-EXPORT-MODULE",
       "live_link": "",
-      "stack": ["C#", ".NET", "Docker", "RESTful API"],
+      "stack": [
+        "C#",
+        ".NET",
+        "Docker",
+        "RESTful API"
+      ],
       "year": "",
       "complexity": "High",
       "images": [],
@@ -138,7 +166,13 @@
       "description": "React front-end for EduPlanPro (React, Jotai, axios).",
       "repo_link": "https://github.com/brayrpgs/EduPlanPro-Frontend",
       "live_link": "",
-      "stack": ["JavaScript", "React", "Jotai", "Axios", "TailwindCSS"],
+      "stack": [
+        "JavaScript",
+        "React",
+        "Jotai",
+        "Axios",
+        "TailwindCSS"
+      ],
       "year": "",
       "complexity": "Medium",
       "images": [],
@@ -149,7 +183,10 @@
       "description": "Android app (Kotlin) for price comparison with web scraping.",
       "repo_link": "https://github.com/brayrpgs/ARShopping",
       "live_link": "",
-      "stack": ["Kotlin", "Android"],
+      "stack": [
+        "Kotlin",
+        "Android"
+      ],
       "year": "",
       "complexity": "Medium",
       "images": [],
@@ -160,7 +197,12 @@
       "description": "Front-end template and client for POS (React / TypeScript).",
       "repo_link": "https://github.com/brayrpgs/post-front-end",
       "live_link": "",
-      "stack": ["TypeScript", "React", "Tailwind CSS", "Vite"],
+      "stack": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Vite"
+      ],
       "year": "",
       "complexity": "Medium",
       "images": [],
@@ -182,7 +224,10 @@
       "description": "Programming-2 course project (Java + HTML).",
       "repo_link": "https://github.com/brayrpgs/proyecto-progra",
       "live_link": "",
-      "stack": ["Java", "HTML"],
+      "stack": [
+        "Java",
+        "HTML"
+      ],
       "year": "",
       "complexity": "Low",
       "images": [],
@@ -193,7 +238,11 @@
       "description": "Server-Sent Events service for DB notifications (Node/Express + pg).",
       "repo_link": "https://github.com/brayrpgs/GLOB-SSE",
       "live_link": "",
-      "stack": ["Node.js", "Express", "PostgreSQL"],
+      "stack": [
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
       "year": "",
       "complexity": "Medium",
       "images": [],
@@ -204,7 +253,13 @@
       "description": "Microservice for LookUp Project (Globales' course project) focused on giving an AI review about project's status.",
       "repo_link": "https://github.com/brayrpgs/GLOB-PERFORMANCE-IA",
       "live_link": "",
-      "stack": ["TypeScript", "Node.js", "Express", "PostgreSQL", "Docker"],
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Docker"
+      ],
       "year": "",
       "complexity": "Medium",
       "images": [],
@@ -215,7 +270,16 @@
       "description": "Microservice for Quick Report (Globales' course project) focused on User Authentication and password recovery with email integration.",
       "repo_link": "https://github.com/brayrpgs/GLOB-SECURITY",
       "live_link": "",
-      "stack": ["TypeScript", "Node.js", "Express", "PostgreSQL", "Docker", "bcrypt", "JWT", "Nodemailer"],
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Docker",
+        "bcrypt",
+        "JWT",
+        "Nodemailer"
+      ],
       "year": "",
       "complexity": "High",
       "images": [],
@@ -226,7 +290,10 @@
       "description": "Kotlin-based mobile project.",
       "repo_link": "https://github.com/brayrpgs/Exam",
       "live_link": "",
-      "stack": ["Kotlin", "Android"],
+      "stack": [
+        "Kotlin",
+        "Android"
+      ],
       "year": "",
       "complexity": "Unknown",
       "images": [],
@@ -237,7 +304,11 @@
       "description": "This portfolio site (current repository).",
       "repo_link": "https://github.com/brayrpgs/portfolio",
       "live_link": "https://brayrpgs.github.io/portfolio",
-      "stack": ["JavaScript", "HTML", "CSS"],
+      "stack": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
       "year": "2025",
       "complexity": "Low",
       "images": [],
@@ -248,7 +319,12 @@
       "description": "Lucene integration project (.NET / C#) with web UI.",
       "repo_link": "https://github.com/brayrpgs/lucene_proyect",
       "live_link": "",
-      "stack": ["C#", ".NET", "HTML", "CSS"],
+      "stack": [
+        "C#",
+        ".NET",
+        "HTML",
+        "CSS"
+      ],
       "year": "",
       "complexity": "Medium",
       "images": [],
@@ -259,7 +335,11 @@
       "description": "Ionic application (Ionic React + TypeScript).",
       "repo_link": "https://github.com/brayrpgs/IONIC-Proyect",
       "live_link": "",
-      "stack": ["TypeScript", "Ionic", "React"],
+      "stack": [
+        "TypeScript",
+        "Ionic",
+        "React"
+      ],
       "year": "",
       "complexity": "Medium",
       "images": [],
@@ -270,10 +350,33 @@
       "description": "Astro / React site (CRA-like).",
       "repo_link": "https://github.com/brayrpgs/CRAUTOS",
       "live_link": "",
-      "stack": ["Astro", "React", "TailwindCSS"],
-      "year": "",
-      "complexity": "Low",
-      "images": [],
+      "stack": [
+        "Astro",
+        "React",
+        "TailwindCSS"
+      ],
+      "year": "2025",
+      "complexity": "Medium",
+      "images": [
+        "images/crautos/crautos (1).jpg",
+        "images/crautos/crautos (2).jpg",
+        "images/crautos/crautos (3).jpg",
+        "images/crautos/crautos (4).jpg",
+        "images/crautos/crautos (5).jpg",
+        "images/crautos/crautos (6).jpg",
+        "images/crautos/crautos (7).jpg",
+        "images/crautos/crautos (8).jpg",
+        "images/crautos/crautos (9).jpg",
+        "images/crautos/crautos (10).jpg",
+        "images/crautos/crautos (11).jpg",
+        "images/crautos/crautos (12).jpg",
+        "images/crautos/crautos (13).jpg",
+        "images/crautos/crautos (14).jpg",
+        "images/crautos/crautos (15).jpg",
+        "images/crautos/crautos (16).jpg",
+        "images/crautos/crautos (17).jpg",
+        "images/crautos/crautos (18).jpg"
+      ],
       "videos": []
     }
   ]
