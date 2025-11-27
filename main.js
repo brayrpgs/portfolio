@@ -22,6 +22,21 @@ const LANG = {
   }
 };
 
+function updateLangWithThoughts(thoughts) {
+  if (thoughts) {
+    if (thoughts.short && thoughts.long) {
+      const enText = thoughts.short + " " + thoughts.long;
+      LANG.en.about_text = enText;
+      LANG.en.thoughts_text = enText;
+    }
+    if (thoughts.short_es && thoughts.long_es) {
+      const esText = thoughts.short_es + " " + thoughts.long_es;
+      LANG.es.about_text = esText;
+      LANG.es.thoughts_text = esText;
+    }
+  }
+}
+
 const state = {
   lang: 'en',
   projects: [],
@@ -54,6 +69,10 @@ async function loadProjects(){
     if(!res.ok) throw new Error('Projects not found');
     const json = await res.json();
     state.projects = json.projects || [];
+    if (json.thoughts) {
+      updateLangWithThoughts(json.thoughts);
+      renderStaticText();
+    }
     buildTechList();
     renderProjects();
     populateFilter();

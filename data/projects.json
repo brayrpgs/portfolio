@@ -8,8 +8,10 @@
     "default_language": "en"
   },
   "thoughts": {
-    "short": " I'm a Systems Engineer specializing in Full Stack development (Web | Mobile | Desktop). I'm young, agile, and adaptable, with solid practical experience, both professional and empirical. I'm proficient in Node.js with TypeScript, React, Docker, PostgreSQL (and its PostRESTsql plugin), Express with TSOA, and I also work with .NET > 8.",
-    "long": "I love dry and clean code, pure design patterns, and always giving 100%. I'm looking to collaborate with startups or projects that value well-executed software engineering, where I can lay a solid and scalable foundation. I started creating apps in college and still enjoy every programming challenge as much as the first day."
+    "short": "I'm a Systems Engineer specializing in Full Stack development (Web | Mobile | Desktop). I'm young, agile, and adaptable, with solid practical experience, both professional and empirical. I'm proficient in Node.js with TypeScript, React, Docker, PostgreSQL (and its PostRESTsql plugin), Express with TSOA, and I also work with .NET > 8.",
+    "long": "I love dry and clean code, pure design patterns, and always giving 100%. I'm looking to collaborate with startups or projects that value well-executed software engineering, where I can lay a solid and scalable foundation. I started creating apps in college and still enjoy every programming challenge as much as the first day.",
+    "short_es": "Soy Ingeniero en Sistemas especializado en desarrollo Full Stack (Web | Móvil | Escritorio). Soy joven, ágil y adaptable, con sólida experiencia práctica, tanto profesional como empírica. Domino Node.js con TypeScript, React, Docker, PostgreSQL (y su plugin PostRESTsql), Express con TSOA, y también trabajo con .NET > 8.",
+    "long_es": "Me encanta el código limpio y seco, los patrones de diseño puros y siempre dar el 100%. Busco colaborar con startups o proyectos que valoren la ingeniería de software bien ejecutada, donde pueda establecer una base sólida y escalable. Empecé a crear aplicaciones en la universidad y sigo disfrutando cada reto de programación como el primer día."
   },
   "projects": [
     {
