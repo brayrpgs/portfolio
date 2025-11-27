@@ -63,7 +63,7 @@
         "images/shopping AR/Shopping AR (5).jpg",
         "images/shopping AR/Shopping AR (6).jpg"
       ],
-      "videos": []
+      "videos": ["https://youtu.be/u1qeRX-x62M"]
     },
     {
       "name": "EduPlanPro-backend",
@@ -244,7 +244,7 @@
         "images/shopping AR/Shopping AR (5).jpg",
         "images/shopping AR/Shopping AR (6).jpg"
       ],
-      "videos": []
+      "videos": ["https://youtu.be/u1qeRX-x62M"]
     },
     {
       "name": "Sistemas-Distribuidos-Linux-PVM",
