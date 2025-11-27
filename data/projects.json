@@ -8,8 +8,8 @@
     "default_language": "en"
   },
   "thoughts": {
-    "short": "",
-    "long": ""
+    "short": " I'm a Systems Engineer specializing in Full Stack development (Web | Mobile | Desktop). I'm young, agile, and adaptable, with solid practical experience, both professional and empirical. I'm proficient in Node.js with TypeScript, React, Docker, PostgreSQL (and its PostRESTsql plugin), Express with TSOA, and I also work with .NET > 8.",
+    "long": "I love dry and clean code, pure design patterns, and always giving 100%. I'm looking to collaborate with startups or projects that value well-executed software engineering, where I can lay a solid and scalable foundation. I started creating apps in college and still enjoy every programming challenge as much as the first day."
   },
   "projects": [
     {
@@ -160,8 +160,9 @@
       "year": "2025",
       "complexity": "High",
       "images": [
-        "images/quick report front/glob-data-application.png",
-        "images/quick report front/glob-data-application.webp"
+        "images/quick report front/glob-data-application.webp",
+        "images/quick report front/glob-data-application.png"
+        
       ],
       "videos": []
     },
