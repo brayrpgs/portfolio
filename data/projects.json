@@ -230,26 +230,17 @@
       "videos": ["https://youtu.be/u1qeRX-x62M"]
     },
     {
-      "name": "Sistemas-Distribuidos-Linux-PVM",
-      "description": "Course / research material repository (various Linux distributed systems content).",
-      "repo_link": "https://github.com/brayrpgs/Sistemas-Distribuidos-Linux-PVM",
-      "live_link": "",
-      "stack": [],
-      "year": "",
-      "complexity": "Unknown",
-      "images": [],
-      "videos": []
-    },
-    {
-      "name": "proyecto-progra",
+      "name": "Boolean Kitchen",
       "description": "Programming-2 course project (Java + HTML).",
       "repo_link": "https://github.com/brayrpgs/proyecto-progra",
       "live_link": "",
       "stack": [
         "Java",
-        "HTML"
+        "HTML",
+        "Spring Boot",
+        "MySQL"
       ],
-      "year": "",
+      "year": "2023",
       "complexity": "Low",
       "images": [],
       "videos": []
