@@ -23,8 +23,8 @@
         "React",
         "Vite"
       ],
-      "year": "",
-      "complexity": "Unknown",
+      "year": "2025",
+      "complexity": "High",
       "images": [
         "images/quick report front/localhost_5173_.png",
         "images/quick report front/localhost_5173_ (1).png",
@@ -52,9 +52,17 @@
         "PostgreSQL",
         "Docker"
       ],
-      "year": "",
+      "year": "2025",
       "complexity": "Medium",
-      "images": [],
+      "images": [
+        "images/shopping AR/Shopping AR (7).jpg",
+        "images/shopping AR/Shopping AR (1).jpg",
+        "images/shopping AR/Shopping AR (2).jpg",
+        "images/shopping AR/Shopping AR (3).jpg",
+        "images/shopping AR/Shopping AR (4).jpg",
+        "images/shopping AR/Shopping AR (5).jpg",
+        "images/shopping AR/Shopping AR (6).jpg"
+      ],
       "videos": []
     },
     {
@@ -69,7 +77,7 @@
         "PostgreSQL",
         "Docker"
       ],
-      "year": "",
+      "year": "2024",
       "complexity": "High",
       "images": [
         "images/EduplanPRO/eduplanpro (1).jpg",
@@ -89,7 +97,9 @@
         "images/EduplanPRO/eduplanpro (15).jpg",
         "images/EduplanPRO/eduplanpro (16).jpg"
       ],
-      "videos": ["https://youtu.be/z_EosBHJWyk"]
+      "videos": [
+        "https://youtu.be/z_EosBHJWyk"
+      ]
     },
     {
       "name": "POS",
@@ -210,10 +220,12 @@
         "images/EduplanPRO/eduplanpro (15).jpg",
         "images/EduplanPRO/eduplanpro (16).jpg"
       ],
-      "videos": ["https://youtu.be/z_EosBHJWyk"]
+      "videos": [
+        "https://youtu.be/z_EosBHJWyk"
+      ]
     },
     {
-      "name": "ARShopping",
+      "name": "ARShopping-fontend",
       "description": "Android app (Kotlin) for price comparison with web scraping.",
       "repo_link": "https://github.com/brayrpgs/ARShopping",
       "live_link": "",
@@ -221,25 +233,17 @@
         "Kotlin",
         "Android"
       ],
-      "year": "",
+      "year": "2025",
       "complexity": "Medium",
-      "images": [],
-      "videos": []
-    },
-    {
-      "name": "post-front-end",
-      "description": "Front-end template and client for POS (React / TypeScript).",
-      "repo_link": "https://github.com/brayrpgs/post-front-end",
-      "live_link": "",
-      "stack": [
-        "TypeScript",
-        "React",
-        "Tailwind CSS",
-        "Vite"
+      "images": [
+        "images/shopping AR/Shopping AR (7).jpg",
+        "images/shopping AR/Shopping AR (1).jpg",
+        "images/shopping AR/Shopping AR (2).jpg",
+        "images/shopping AR/Shopping AR (3).jpg",
+        "images/shopping AR/Shopping AR (4).jpg",
+        "images/shopping AR/Shopping AR (5).jpg",
+        "images/shopping AR/Shopping AR (6).jpg"
       ],
-      "year": "",
-      "complexity": "Medium",
-      "images": [],
       "videos": []
     },
     {
@@ -415,7 +419,9 @@
         "images/crautos/crautos (17).jpg",
         "images/crautos/crautos (18).jpg"
       ],
-      "videos": ["https://youtu.be/EMM9C9ss2Q4"]
+      "videos": [
+        "https://youtu.be/EMM9C9ss2Q4"
+      ]
     }
   ]
 }
