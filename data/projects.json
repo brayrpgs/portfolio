@@ -294,7 +294,10 @@
       ],
       "year": "",
       "complexity": "Medium",
-      "images": [],
+      "images": [
+        "images/quick report front/glob-ia.png",
+        "images/quick report front/glob-ia.webp"
+    ],
       "videos": []
     },
     {
