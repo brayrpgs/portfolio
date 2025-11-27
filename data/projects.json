@@ -321,7 +321,11 @@
       ],
       "year": "",
       "complexity": "High",
-      "images": [],
+      "images": [
+        "images/quick report front/glob-ia.png",
+        "images/quick report front/glob-ia.webp",
+        "images/quick report front/glob-security.webp"
+      ],
       "videos": []
     },
     {
