@@ -21,6 +21,8 @@ body{
 }
 .container{max-width:var(--container);margin:0 auto;padding:28px}
 .header-row{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.profile-section{display:flex;align-items:center;gap:20px}
+.profile-image{width:100px;height:100px;border-radius:50%;object-fit:cover;border:3px solid var(--accent);box-shadow:0 4px 20px color-mix(in srgb, var(--accent) 30%, transparent)}
 .title-wrap h1{margin:0;font-size:1.6rem;color:var(--accent)}
 .tagline{margin:6px 0;color:var(--muted)}
 .muted{color:var(--muted)}
@@ -61,6 +63,8 @@ body{
 /* Responsive */
 @media (max-width:700px){
   .header-row{flex-direction:column;align-items:flex-start}
+  .profile-section{flex-direction:column;text-align:center;align-items:center}
+  .profile-image{width:120px;height:120px}
   .about-right{width:100%}
   .videos iframe, .videos video{width:100%;height:200px}
 }
