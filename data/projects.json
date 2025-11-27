@@ -317,37 +317,6 @@
       "videos": []
     },
     {
-      "name": "portfolio",
-      "description": "This portfolio site (current repository).",
-      "repo_link": "https://github.com/brayrpgs/portfolio",
-      "live_link": "https://brayrpgs.github.io/portfolio",
-      "stack": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "year": "2025",
-      "complexity": "Low",
-      "images": [],
-      "videos": []
-    },
-    {
-      "name": "lucene_proyect",
-      "description": "Lucene integration project (.NET / C#) with web UI.",
-      "repo_link": "https://github.com/brayrpgs/lucene_proyect",
-      "live_link": "",
-      "stack": [
-        "C#",
-        ".NET",
-        "HTML",
-        "CSS"
-      ],
-      "year": "",
-      "complexity": "Medium",
-      "images": [],
-      "videos": []
-    },
-    {
       "name": "IONIC-Proyect",
       "description": "Ionic application (Ionic React + TypeScript).",
       "repo_link": "https://github.com/brayrpgs/IONIC-Proyect",
