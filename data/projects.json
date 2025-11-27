@@ -353,7 +353,11 @@
       "stack": [
         "Astro",
         "React",
-        "TailwindCSS"
+        "TailwindCSS",
+        "PostgreSQL",
+        "Node.js",
+        "Nodemailer",
+        "TypeScript"
       ],
       "year": "2025",
       "complexity": "Medium",
