@@ -110,7 +110,7 @@
       ]
     },
     {
-      "name": "API-exam",
+      "name": "EduTrack",
       "description": "API (C#/.NET) for exam system. README documents SQL Server setup for the project.",
       "repo_link": "https://github.com/brayrpgs/API-exam",
       "live_link": "",
@@ -120,7 +120,7 @@
         "SQL Server",
         "T-SQL"
       ],
-      "year": "",
+      "year": "2025",
       "complexity": "High",
       "images": [],
       "videos": []
@@ -323,7 +323,6 @@
       "complexity": "High",
       "images": [
         "images/quick report front/glob-ia.png",
-        "images/quick report front/glob-ia.webp",
         "images/quick report front/glob-security.webp"
       ],
       "videos": []
@@ -355,7 +354,7 @@
       "year": "",
       "complexity": "Medium",
       "images": [],
-      "videos": []
+      "videos": ["https://youtu.be/gufDbg-mH6E"]
     },
     {
       "name": "CRAUTOS",
